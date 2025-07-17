@@ -5,6 +5,13 @@ export default function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-12">
+        <div className="flex items-center justify-center mb-6">
+          <img 
+            src="/icon.svg" 
+            alt="Brandon Mosco Logo" 
+            className="h-16 w-auto mr-4"
+          />
+        </div>
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
           Quote Calculator
         </h1>

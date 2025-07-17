@@ -65,6 +65,11 @@ export default function SettingsPage() {
         >
           <ArrowLeft className="w-5 h-5" />
         </Link>
+        <img 
+          src="/icon.svg" 
+          alt="Brandon Mosco Logo" 
+          className="h-10 w-auto mr-4"
+        />
         <div>
           <h1 className="text-3xl font-bold text-gray-900 flex items-center">
             <SettingsIcon className="w-8 h-8 mr-3" />

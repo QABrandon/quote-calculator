@@ -4,10 +4,10 @@
   "description": "An interactive quote estimator that helps users calculate project costs directly in Webflow based on selected services.",
   "version": "1.0.0",
   "icon": "/icon.svg",
-  "homepage": "https://yourdomain.com",
+  "homepage": "http://localhost:3000",
   "auth": {
     "type": "oauth2",
-    "client_id": "YOUR_CLIENT_ID_HERE",
+    "client_id": "1eb9852839033047cc56bd9c54e5eea859b1df9b70d76b0c72118b1c12ad60fa",
     "client_secret": "YOUR_CLIENT_SECRET_HERE",
     "authorization_url": "https://webflow.com/oauth/authorize",
     "token_url": "https://api.webflow.com/oauth/access_token",
@@ -18,27 +18,27 @@
       "forms:write"
     ],
     "redirect_uris": [
-      "https://yourdomain.com/oauth/callback"
+      "http://localhost:3000/oauth/callback"
     ]
   },
   "ui": {
     "locations": {
       "siteSettings": {
         "label": "Quote Calculator Settings",
-        "url": "https://yourdomain.com/settings"
+        "url": "http://localhost:3000/settings"
       },
       "projectDashboard": {
         "label": "Estimate a Quote",
-        "url": "https://yourdomain.com/estimator"
+        "url": "http://localhost:3000/estimator"
       }
     }
   },
   "api": {
-    "base_url": "https://yourdomain.com/api"
+    "base_url": "http://localhost:3000/api"
   },
   "hooks": {
     "formSubmission": {
-      "url": "https://yourdomain.com/api/webhook"
+      "url": "http://localhost:3000/api/webhook"
     }
   }
 } 
