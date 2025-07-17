@@ -1,0 +1,43 @@
+{
+  "name": "webflow-quote-calculator",
+  "version": "1.0.0",
+  "description": "An interactive quote estimator that helps users calculate project costs directly in Webflow based on selected services.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "next-auth": "^4.24.5",
+    "prisma": "^5.6.0",
+    "@prisma/client": "^5.6.0",
+    "lucide-react": "^0.293.0",
+    "clsx": "^2.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "typescript": "^5.2.2",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "author": "Brandon Mosco",
+  "keywords": [
+    "webflow",
+    "quote-calculator",
+    "developer-platform",
+    "nextjs"
+  ]
+} 

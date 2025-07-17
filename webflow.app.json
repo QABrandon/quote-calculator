@@ -1,0 +1,44 @@
+{
+  "id": "quote-calculator-app",
+  "name": "Quote Calculator by Brandon Mosco",
+  "description": "An interactive quote estimator that helps users calculate project costs directly in Webflow based on selected services.",
+  "version": "1.0.0",
+  "icon": "/icon.svg",
+  "homepage": "https://yourdomain.com",
+  "auth": {
+    "type": "oauth2",
+    "client_id": "YOUR_CLIENT_ID_HERE",
+    "client_secret": "YOUR_CLIENT_SECRET_HERE",
+    "authorization_url": "https://webflow.com/oauth/authorize",
+    "token_url": "https://api.webflow.com/oauth/access_token",
+    "scopes": [
+      "sites:read",
+      "collections:read",
+      "forms:read",
+      "forms:write"
+    ],
+    "redirect_uris": [
+      "https://yourdomain.com/oauth/callback"
+    ]
+  },
+  "ui": {
+    "locations": {
+      "siteSettings": {
+        "label": "Quote Calculator Settings",
+        "url": "https://yourdomain.com/settings"
+      },
+      "projectDashboard": {
+        "label": "Estimate a Quote",
+        "url": "https://yourdomain.com/estimator"
+      }
+    }
+  },
+  "api": {
+    "base_url": "https://yourdomain.com/api"
+  },
+  "hooks": {
+    "formSubmission": {
+      "url": "https://yourdomain.com/api/webhook"
+    }
+  }
+} 
