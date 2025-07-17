@@ -35,8 +35,8 @@ An interactive quote estimator that helps users calculate project costs directly
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd webflow-quote-calculator
+   git clone https://github.com/QABrandon/quote-calculator.git
+   cd quote-calculator
    ```
 
 2. **Install dependencies**
@@ -312,6 +312,10 @@ Set `NODE_ENV=development` to enable detailed logging.
 
 This project is licensed under the MIT License.
 
+## Repository
+
+**GitHub**: [https://github.com/QABrandon/quote-calculator.git](https://github.com/QABrandon/quote-calculator.git)
+
 ## Support
 
-For support, please contact Brandon Mosco or create an issue in the repository. 
+For support, please contact Brandon Mosco or create an issue in the [GitHub repository](https://github.com/QABrandon/quote-calculator/issues). 
